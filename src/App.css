@@ -1,12 +1,24 @@
 .App {
   text-align: center;
 }
-
+.logo {
+  height: 60px;
+  width: 130px;
+}
 .App-logo {
-  height: 40vmin;
+  height: 200px;
   pointer-events: none;
 }
-
+.home-bg {
+  background: url(https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80) 
+  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 240px;
+  padding-bottom: 180px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
